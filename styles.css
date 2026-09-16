@@ -614,16 +614,20 @@ main {
 .price-number {
     font-size: clamp(100px, 21vw, 320px);
     font-weight: 900;
-    letter-spacing: -.11em;
+    letter-spacing: -.06em;
     line-height: .72;
     display: inline-block;
-    transition: transform .15s
+    transition: transform .15s;
+    margin-right: 16px;
 }
 
 .currency {
-    font: 500 12px var(--mono);
+    display: inline-block;
+    font: 600 14px/1 var(--mono);
     vertical-align: top;
-    letter-spacing: .05em
+    letter-spacing: .08em;
+    margin-left: 14px;
+    margin-top: 18px;
 }
 
 .price-description {
@@ -1108,7 +1112,15 @@ main {
     .price-number {
         font-size: clamp(48px, 16vw, 96px);
         line-height: .8;
-        letter-spacing: -.06em;
+        letter-spacing: -.04em;
+        margin-right: 8px;
+    }
+
+    .currency {
+        display: inline-block;
+        font-size: 11px;
+        margin-left: 8px;
+        margin-top: 6px;
     }
 
     .price-description {
