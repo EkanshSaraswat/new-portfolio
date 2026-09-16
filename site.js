@@ -625,7 +625,7 @@ if (priceNumber) {
 
     const submitButton = document.getElementById('submitContact');
     const formStatus = document.getElementById('formStatus');
-    const API_URL = 'http://localhost:5000';
+    const API_URL = ''; // relative path — works on Vercel (/api/contact) and local serve
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
