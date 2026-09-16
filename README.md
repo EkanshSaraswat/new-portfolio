@@ -1,4 +1,4 @@
-# Multi-page creative portfolio clone
+# creative portfolio 
 
 This project is my personal portfolio website, showcasing my skills, projects, experience, and creative work in web development and UI/UX design.
 
