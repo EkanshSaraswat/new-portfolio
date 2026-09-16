@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ekansh Saraswat — get in touch." />
+    <title>Ekansh Saraswat — Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-wipe" aria-hidden="true"><span>LOADING<span class="dots">...</span></span></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <div class="cursor-label" aria-hidden="true">OPEN</div>
+    <div class="progress-rail" aria-hidden="true">
+        <div class="progress-line"><span></span></div>
+        <div class="progress-mark">00</div>
+    </div>
+    <div class="next-note" aria-hidden="true"></div>
+    <header class="site-header"><a class="brand magnetic" href="index.html"
+            data-cursor="HOME">EKANSH<span>.DEV</span></a>
+        <nav class="desktop-nav" aria-label="Main navigation"><a class="nav-link magnetic" href="service.html"
+                data-cursor="OPEN">WORK</a>
+            <a class="nav-link magnetic" href="experience.html" data-cursor="OPEN">EXPERIENCE</a>
+            <a class="nav-link magnetic" href="skills.html" data-cursor="OPEN">SKILLS</a>
+            <a class="nav-link magnetic" href="contact.html" data-cursor="OPEN">CONTACT</a>
+        </nav>
+        <button class="menu-toggle magnetic" type="button" aria-expanded="false"
+            aria-controls="mobile-menu">MENU</button>
+    </header>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-inner">
+            <div class="eyebrow">NAVIGATION</div>
+            <a href="service.html" class="mobile-link">WORK <span>↗</span></a>
+            <a href="experience.html" class="mobile-link">EXPERIENCE <span>↗</span></a>
+            <a href="skills.html" class="mobile-link">SKILLS <span>↗</span></a>
+            <a href="contact.html" class="mobile-link">CONTACT <span>↗</span></a>
+        </div>
+    </div>
+    <main>
+        <section class="hero" id="top">
+            <div class="glitch-orbit orbit-a">MERN</div>
+            <div class="glitch-orbit orbit-b">CS27</div>
+            <div class="glitch-orbit orbit-c">JPR</div>
+            <div class="hero-copy reveal">
+                <div class="kicker">Got a<span>?</span><br>project?</div>
+                <p class="hero-lede">Looking for an intern, a dev to build something, or just want to say hi? Reach out.
+                </p>
+            </div><button class="mail-card magnetic" id="copyMail" data-email="ekanshsaraswat1234@gmail.com"
+                type="button" data-cursor="COPY"><span class="mail-label">EMAIL</span><span
+                    class="mail-address">ekanshsaraswat1234@gmail.com</span><span class="mail-hint" id="copyState">Click
+                    to copy
+                    <span>↗</span></span></button>
+            <div class="hero-bottom reveal">
+                <div class="tiny-note">MERN STACK DEVELOPMENT</div>
+                <div class="hero-symbol">✳</div>
+                <div class="tiny-note">SCROLL TO EXPLORE</div>
+            </div>
+        </section>
+        <section class="contact-form-section">
+            <div class="section-inner split">
+                <div class="section-tag reveal">SEND A MESSAGE <span>03</span></div>
+                <div class="contact-form-wrapper reveal">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="contactName">YOUR NAME</label>
+                            <input type="text" id="contactName" name="name" placeholder="Enter your name" autocomplete="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">YOUR EMAIL</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="you@example.com" autocomplete="email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">YOUR MESSAGE</label>
+                            <textarea id="contactMessage" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="yellow-button" id="submitContact">SEND MESSAGE <span>↗</span></button>
+                        <p id="formStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="section-inner split">
+                <div class="section-tag reveal">FAQ <span>02</span></div>
+                <div class="faq-list">
+                    <details class="faq-item reveal" open>
+                        <summary>What stack do you build with?<span>+</span></summary>
+                        <div class="faq-answer">MERN — MongoDB, Express, React and Node.js — plus regular DSA practice
+                            to keep my problem-solving sharp.</div>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>Are you open to internships or full-time roles?<span>+</span></summary>
+                        <div class="faq-answer">Yes. I'm a B.Tech CS student (expected 2027) with internship experience
+                            at Realmonk Realty and Globe Asia Transport, actively looking for the next opportunity.
+                        </div>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>Where can I see your code?<span>+</span></summary>
+                        <div class="faq-answer">Check the GitHub link in the footer, or the Work page for a few featured
+                            projects.</div>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>What are you currently learning?<span>+</span></summary>
+                        <div class="faq-answer">Data structures &amp; algorithms, and exploring new product ideas on the
+                            side.</div>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>What's the best way to reach you?<span>+</span></summary>
+                        <div class="faq-answer">Email is fastest — click the card above to copy it, or use the links in
+                            the footer.</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="closing" aria-label="Closing statement">
+        <div class="noise"></div>
+        <div class="closing-inner reveal">
+            <p class="eyebrow">OPEN TO WORK</p>
+            <h2>LET'S<br><span>CONNECT.</span></h2><a class="yellow-button magnetic" href="contact.html"
+                data-cursor="OPEN">SAY HELLO <span>↗</span></a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-top">
+            <div>
+                <div class="footer-brand">EKANSH<span>.</span></div>
+                <p>B.Tech CS student &amp; MERN stack developer.</p>
+            </div>
+            <div class="footer-links"><a href="service.html">WORK</a>
+                <a href="experience.html">EXPERIENCE</a>
+                <a href="skills.html">SKILLS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div class="footer-links"><a href="#" data-cursor="OPEN">GITHUB ↗</a>
+                <a href="https://www.linkedin.com/in/ekansh-saraswat-a2a883285/" data-cursor="OPEN">LINKEDIN ↗</a>
+                <a href="mailto:ekanshsaraswat1234@gmail.com" data-cursor="OPEN">EMAIL ↗</a>
+            </div>
+        </div>
+        <div class="footer-bottom"><span>© 2026 EKANSH SARASWAT</span><span>JAIPUR, INDIA</span><button id="topBtn"
+                class="top-btn magnetic" type="button">BACK TO TOP ↑</button></div>
+    </footer>
+    <div class="page-end-sentinel" aria-hidden="true"></div>
+    <script src="site.js"></script>
+</body>
+
+</html>

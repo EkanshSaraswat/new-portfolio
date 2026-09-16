@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-resend-integrated",
+  "version": "1.0.0",
+  "description": "Multi-page creative portfolio with Resend email integration",
+  "scripts": {
+    "start": "concurrently -n \"frontend,backend\" -c \"cyan,magenta\" \"npm run frontend\" \"npm run backend\"",
+    "dev": "concurrently -n \"frontend,backend\" -c \"cyan,magenta\" \"npm run frontend\" \"npm run backend\"",
+    "frontend": "serve -l 3000 .",
+    "backend": "node backend/server.js",
+    "install:all": "npm install && npm --prefix backend install"
+  },
+  "keywords": [
+    "portfolio",
+    "resend",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "serve": "^14.2.4"
+  }
+}
