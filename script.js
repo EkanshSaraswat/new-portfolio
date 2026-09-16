@@ -49,8 +49,8 @@ function cursorLoop() {
         ring.style.opacity = '1';
     }
     if (label) {
-        label.style.left = `${mouse.x + 16}px`;
-        label.style.top = `${mouse.y - 10}px`;
+        label.style.left = `${ringPos.x}px`;
+        label.style.top = `${ringPos.y}px`;
     }
     requestAnimationFrame(cursorLoop);
 }
