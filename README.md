@@ -1,6 +1,6 @@
 # Multi-page creative portfolio clone
 
-This project is a standalone learning clone inspired by the public structure and visual direction of Eduard Bodak's website. It is not a copy of the original Webflow project or its proprietary assets.
+This project is my personal portfolio website, showcasing my skills, projects, experience, and creative work in web development and UI/UX design.
 
 ## Pages
 - `index.html` — overview / service landing
